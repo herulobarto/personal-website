@@ -3,6 +3,7 @@
 // https://docs.astro.build/en/core-concepts/layouts/
 
 // Component Imports
+import GoogleAnalitycs from '../components/GoogleAnalitycs.astro';
 import MainHead from '../components/MainHead.astro';
 import Analytics from '../components/Analitycs.astro';
 import Nav from '../components/Nav.astro';
@@ -21,7 +22,14 @@ const { title, description } = Astro.props;
 	<head>
 		<MainHead title={title} description={description} />
 
-		<Analytics />
+		  <!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-GHJ2P1RFH5"></script>
+		<script is:inline>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-GHJ2P1RFH5');
+		</script>
 	</head>
 	<body>
 		<div class="stack backgrounds">
