@@ -9,7 +9,6 @@ tags:
   - Power BI
   - Data Visualization
   - Case Study
-  - Practice Project
 ---
 
 This project is a personal exercise based on a YouTube tutorial that simulates a survey of professionals working in the data field. The dataset was collected through a Google Form as part of the tutorial material, and I used it to practice end-to-end data analysis using Power BI.

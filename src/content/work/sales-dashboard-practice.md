@@ -8,7 +8,6 @@ description: |
 tags:
   - Tableau
   - Data Visualization
-  - Practice Project
   - Dashboard Design
 ---
 

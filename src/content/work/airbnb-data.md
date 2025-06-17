@@ -8,8 +8,7 @@ description: |
 tags:
   - Data Analysis
   - Power BI
-  - Dashboard
-  - Case Study
+  - Dashboard Design
 ---
 
 The project began by loading the Airbnb Seattle 2016 dataset into Tableau, followed by data cleaning and transformation processes such as removing duplicates and ensuring consistent data formatting. Initial analysis was conducted to explore the distribution of properties by number of bedrooms, average price, and location data by zip code.
